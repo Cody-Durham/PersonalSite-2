@@ -1,18 +1,18 @@
+:root {
+    --black: rgb(55, 55, 55);
+}
+
 .header {
     // border: 2px solid red;
-    background-color: rgb(55, 55, 55);
+    background-color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 150px;
     
-
-
     .logo {
         margin: 0 0 0 250px;
     }
-
-
 
     ul {
         // border: 2px solid red;
