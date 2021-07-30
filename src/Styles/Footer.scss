@@ -1,6 +1,9 @@
 :root {
     --black: rgb(55, 55, 55);
 }
+* {
+    box-sizing: border-box;
+}
 
 .footer {
     // border: 4px solid red;
@@ -9,20 +12,23 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 250px;
+    height: 220px;
     padding: 0 0 20px 0;
 
-    .footer-copyright a {
-        background-color: cyan;
+    .footer-copyright p {
+        // background-color: cyan;
         text-decoration: none;
         list-style-type: none;
         color: white;
+        position: relative;
+        top: 70px;
     }
 }
 
 .footer-icons {
-    border: 2px solid red;
+    // border: 2px solid red;
     // background-color: cyan;
+    margin-top: 30px;
     max-width: 500px;
     
     ul {
@@ -37,8 +43,12 @@
      }
 }
     
-    .media-links a {
-       border: 2px solid red;
+    .media-links a img {
+    //    border: 2px solid red;
+       width: 30px;
+       margin: 0 10px 0 10px;
+       position: relative;
+       top: 60px;
 }
 
 

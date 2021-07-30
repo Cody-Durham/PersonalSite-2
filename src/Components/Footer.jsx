@@ -37,9 +37,9 @@ const Footer = () => {
                 </div>
                 
             </nav>
-                {/* <div className='footer-copyright'>
-                    <Link to='/'>C 2021 Cody Durham</Link>
-                </div> */}
+                <div className='footer-copyright'>
+                    <p>C 2021 Cody Durham</p>
+                </div>
         </div>
     )
 }
