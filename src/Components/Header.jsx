@@ -11,12 +11,10 @@ import '../Styles/Header.scss'
 const Header = () => {
     return (
         <div className='header'>
-            <h1>Header</h1>
-
+            <div className='logo'>
+            <Link to='/'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627624646/Portfolio%20Website%202/CD_Logo_White-02_m9ldd1.png' /></Link>
+            </div>
             <nav>
-                <div className='logo'>
-                <Link to='/'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627624646/Portfolio%20Website%202/CD_Logo_Black-01_slcklo.png' /></Link>
-                </div>
                 <ul>
                     <li>
                         <Link to='/about'>About</Link>
