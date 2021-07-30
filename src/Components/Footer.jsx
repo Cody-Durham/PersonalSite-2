@@ -6,7 +6,6 @@ import { Route, Link, Switch } from 'react-router-dom'
 const Footer = () => {
     return (
         <div id='footer'>
-            <h1>This is the Footer Page</h1>
             <nav>
                 <ul>
                     <li>

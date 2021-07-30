@@ -11,12 +11,14 @@ import '../Styles/Header.scss'
 const Header = () => {
     return (
         <div className='header'>
+            {/* <Switch> */}
+            
             <div className='logo'>
-            <Link to='/'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627624646/Portfolio%20Website%202/CD_Logo_White-02_m9ldd1.png' /></Link>
+                <Link to='/'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627624646/Portfolio%20Website%202/CD_Logo_White-02_m9ldd1.png' /></Link>
             </div>
             <nav>
                 <ul>
-                    <li>
+                    <li>                        
                         <Link to='/about'>About</Link>
                     </li>
                     <li>
@@ -33,14 +35,12 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-
-            <Switch>
-                <Route exact path='/about' component={ About } />
-                <Route exact path='/projects' component={ Projects } />
-                <Route exact path='/designer' component={ Designer } />
-                <Route exact path='/contact' component={ Contact } />
-                <Route exact path='/resume' component={ Resume } />
-            </Switch>
+                {/* <Route exact path='/about' component={ About }/> */}
+                {/* <Route exact path='/projects' component={ Projects } /> */}
+                {/* <Route exact path='/designer' component={ Designer } /> */}
+                {/* <Route exact path='/contact' component={ Contact } /> */}
+                {/* <Route exact path='/resume' component={ Resume } /> */}
+            {/* </Switch> */}
         </div>
     )
 }

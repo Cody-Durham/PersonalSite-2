@@ -1,14 +1,16 @@
 import React from 'react'
 import About from './About'
-
+import Header from '../Components/Header'
+import '../Styles/Main.scss'
 
 
 
 const Main = () => {
     return (
-        <div>
-            <h1>Main</h1>
-            <div className='icons'>
+        <div className='main-content'>
+            <h1>This is the main page</h1>
+            
+            {/* <div className='icons'>
                 <div>
                     <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674460/Portfolio%20Website%202/React_Icon-08_ihg8yn.png'/>
                 </div>
@@ -27,7 +29,7 @@ const Main = () => {
                 <div>
                     <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674432/Portfolio%20Website%202/AWS_Icon-14_s0xn9o.png'/>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )
