@@ -17,7 +17,7 @@ const Header = () => {
 
             <nav>
                 <div className='logo'>
-                <Link to='/'><h1>My logo goes here</h1></Link>
+                <Link to='/'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627624646/Portfolio%20Website%202/CD_Logo_Black-01_slcklo.png' /></Link>
                 </div>
                 <ul>
                     <li>
