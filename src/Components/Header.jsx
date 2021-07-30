@@ -6,13 +6,11 @@ import Contact from '../Pages/Contact'
 import Resume from '../Pages/Resume'
 
 import { Route, Link, Switch } from 'react-router-dom'
-
-
-
+import '../Styles/Header.scss'
 
 const Header = () => {
     return (
-        <div>
+        <div className='header'>
             <h1>Header</h1>
 
             <nav>

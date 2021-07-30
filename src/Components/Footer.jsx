@@ -1,12 +1,11 @@
 import React from 'react'
-import About from '../Pages/About'
-import Projects from '../Pages/Projects'
+import '../Styles/Footer.scss'
 
 import { Route, Link, Switch } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <div>
+        <div id='footer'>
             <h1>This is the Footer Page</h1>
             <nav>
                 <ul>
