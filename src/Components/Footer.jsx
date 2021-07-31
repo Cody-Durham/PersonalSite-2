@@ -9,7 +9,7 @@ const Footer = () => {
             <nav>
                 <div className='footer-icons'>
                     <ul>
-                        <li>
+                        <li id='logo'>
                             <Link to='/about'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627623690/Portfolio%20Website%202/About_Icon-01-01_ral5mn.png'/></Link>
                         </li>
                         <li>
