@@ -34,6 +34,9 @@ const Footer = () => {
                     <a href='https://github.com/cody-durham' target='blank'>
                         <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674443/Portfolio%20Website%202/GitHub_Icon-07_zjmbij.png'/>
                     </a>
+                    <a href='https://www.coroflot.com/codydurham' target='blank'>
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627687605/Portfolio%20Website%202/Coroflot_Icon-08_eonn1t.png'/>
+                    </a>
                 </div>
                 
             </nav>
