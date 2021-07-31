@@ -24,7 +24,8 @@ function App() {
             <Main /> 
           </Route>
           
-          <Route path='/about' component={ About }>
+          <Route path='/about' component= { About } >
+            {/* <About />  */}
           </Route>
 
           <Route path='/projects' component={ Projects }>

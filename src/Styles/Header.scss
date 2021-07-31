@@ -9,16 +9,25 @@
     justify-content: space-between;
     align-items: center;
     height: 150px;
+
     .logo {
+        // border: 2px solid red; 
         margin: 0 0 0 250px;
     }
 
+    .logo :hover {
+        // border: 3px solid blue;
+        transition: all 0.4s ease 0s;
+        transform: scale(1.1)
+    }
+   
     ul {
         // border: 2px solid red;
         display: flex;
         list-style-type: none;
         padding-right: 250px;
     }
+    
     li a {
         // background-color: red;
         padding: 0 20px 0 20px;
@@ -26,10 +35,14 @@
         text-decoration: none;
         font-size: 20px;
         font-weight: 600;
+        transition: all 0.6s ease 0s;
+    }
+    & :hover {
+        color: #0088a9;
     }
 
 
-
+// bottom of header
 }
 
 
