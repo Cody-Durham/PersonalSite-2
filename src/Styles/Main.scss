@@ -37,12 +37,14 @@ body {
     }
     #main-branding-statement {
         // border: 2px solid red;
+        font-weight: 500;
         line-height: 28px;
         margin-bottom: 50px;
     }
-    #main-my-work {
+    #main-my-work h3 {
         // border: 2px solid red;
         font-size: 1.5em;
+        margin-top: 20px;
     }
 
  }

@@ -38,9 +38,10 @@ const Main = () => {
             </div>
 
             <div id='main-my-work'>
+                <hr></hr>
                 <h3>MY WORK</h3>
             </div>
-
+        
             <div className='sticky-footer'>
             {/* <h1>This is the main page</h1> */}
             </div>
