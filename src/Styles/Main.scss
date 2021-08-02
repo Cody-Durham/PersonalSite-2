@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     // background-color: red;
     height: 100%;
@@ -5,10 +8,10 @@ body {
 }
 
  .main-content {
-     border: 2px solid red;
+    //  border: 2px solid red;
      max-width: 1200px;
      margin: 0 auto;
-     min-height: 80.5vh;
+     min-height: 75vh;
 
      #main-image {
         // border: 2px solid aquamarine;
@@ -25,7 +28,21 @@ body {
         width: 80px;
         display: flex;
         flex-direction: column;
-        padding: 0 20px 0 0;
+        padding: 20px 20px 0 0;
+
+        & div {
+            // border: 2px solid red;
+            margin: 5px 0 5px 0;
+        }
+    }
+    #main-branding-statement {
+        // border: 2px solid red;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+    #main-my-work {
+        // border: 2px solid red;
+        font-size: 1.5em;
     }
 
  }

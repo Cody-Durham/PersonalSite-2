@@ -33,6 +33,14 @@ const Main = () => {
                 </div>
 
             </div>
+            <div id='main-branding-statement'>
+                <p>I'm an Industrial Designer turned Developer that's able to utilize my creativity to take simple ideas and turn them into modern designs.  With a fortitude and passion for being a creator, I set high standards for all projects I take on. Leveraging a background in consumer-facing product design in multiple fields, you can count on me to bring reflection, personal growth, dependability and consistency to our work. Never compromising on quality or reliability, I'm able to achieve results while scoping deliverables, collaborating, and managing multiple projects</p>
+            </div>
+
+            <div id='main-my-work'>
+                <h3>MY WORK</h3>
+            </div>
+
             <div className='sticky-footer'>
             {/* <h1>This is the main page</h1> */}
             </div>
