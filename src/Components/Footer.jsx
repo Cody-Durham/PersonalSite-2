@@ -5,7 +5,7 @@ import { Route, Link, Switch } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <nav>
                 <div className='footer-icons'>
                     <ul>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <div className='footer-copyright'>
                     <p>C 2021 Cody Durham</p>
                 </div>
-        </div>
+        </footer>
     )
 }
 
