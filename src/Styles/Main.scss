@@ -3,29 +3,32 @@ body {
     height: 100%;
     margin: 0;
 }
-// .main-content {
-//     border: 2px solid red; 
-//     max-width: 75%;
-//     margin: 0 auto;
-//     height: 1100px;
-// }
 
  .main-content {
      border: 2px solid red;
      max-width: 1200px;
      margin: 0 auto;
      min-height: 80.5vh;
-    //  min-height: 100%;
+
+     #main-image {
+        // border: 2px solid aquamarine;
+        margin: 100px 0 50px 0;
+        background-image: url('https://res.cloudinary.com/dhad6e9gj/image/upload/v1627942094/Portfolio%20Website%202/hannah-wei-aso6SYJZGps-unsplash_sn0lpw.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 28em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #icons {
+        // border: 2px solid red;
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 0;
+    }
+
  }
-
-//  .main-content::after {
-//      content: '';
-//      display: block; 
-//  }
-
-
-
-
 
 
 .sticky-footer {

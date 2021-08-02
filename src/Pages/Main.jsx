@@ -8,29 +8,33 @@ import '../Styles/Main.scss'
 const Main = () => {
     return (
         <div className='main-content'>
+            <div id='main-image'>
+                {/* <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627942094/Portfolio%20Website%202/hannah-wei-aso6SYJZGps-unsplash_sn0lpw.jpg' /> */}
+                
+                <div id='icons'>
+                    <div>
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674460/Portfolio%20Website%202/React_Icon-08_ihg8yn.png'/>
+                    </div>
+                    <div>
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674455/Portfolio%20Website%202/Next_Icon-09_lxg2oc.png'/>
+                    </div>
+                    <div>
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674443/Portfolio%20Website%202/Html_Icon-10_vsvllm.png'/>
+                    </div>
+                    <div>
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674436/Portfolio%20Website%202/CSS_Icon-11_we8gb0.png'/>
+                    </div>
+                    <div>
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674464/Portfolio%20Website%202/Sass_Icon-12_uemkt3.png'/>
+                    </div>
+                    <div>
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674432/Portfolio%20Website%202/AWS_Icon-14_s0xn9o.png'/>
+                    </div>
+                </div>
+
+            </div>
             <div className='sticky-footer'>
             {/* <h1>This is the main page</h1> */}
-            
-            {/* <div className='icons'>
-                <div>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674460/Portfolio%20Website%202/React_Icon-08_ihg8yn.png'/>
-                </div>
-                <div>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674455/Portfolio%20Website%202/Next_Icon-09_lxg2oc.png'/>
-                </div>
-                <div>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674443/Portfolio%20Website%202/Html_Icon-10_vsvllm.png'/>
-                </div>
-                <div>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674436/Portfolio%20Website%202/CSS_Icon-11_we8gb0.png'/>
-                </div>
-                <div>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674464/Portfolio%20Website%202/Sass_Icon-12_uemkt3.png'/>
-                </div>
-                <div>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674432/Portfolio%20Website%202/AWS_Icon-14_s0xn9o.png'/>
-                </div>
-            </div> */}
             </div>
         </div>
     )
