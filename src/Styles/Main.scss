@@ -1,5 +1,40 @@
-.main-content {
-    border: 2px solid red; 
-    max-width: 75%;
-    margin: 0 auto;
+body {
+    // background-color: red;
+    height: 100%;
+    margin: 0;
 }
+// .main-content {
+//     border: 2px solid red; 
+//     max-width: 75%;
+//     margin: 0 auto;
+//     height: 1100px;
+// }
+
+ .main-content {
+     border: 2px solid red;
+     max-width: 1200px;
+     margin: 0 auto;
+     min-height: 80.5vh;
+    //  min-height: 100%;
+ }
+
+//  .main-content::after {
+//      content: '';
+//      display: block; 
+//  }
+
+
+
+
+
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+} 
+
+.sticky-footer::after {
+    content: '';
+    display: block;
+}
+
