@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --fontBlack: #6E6E6E;
+}
+
+.project-card-container {
+    // border: 2px solid red;
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+
+    .project-card {
+        // border: 2px solid aquamarine;
+        width: 350px;
+        height: 500px;
+    }
+
+    .project-card-icon {
+        // border: 2px solid red;
+        margin: 0 0 20px 0;
+    }
+
+    .project-card-title h3 { 
+        margin: 0 0 20px 0;
+        color: var(--fontBlack);
+        font-size: 1.5em;
+    }
+
+    .project-card-text p {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        font-size: 1.1em;
+        line-height: 30px;
+        padding: 20px;
+    }
+
+    .project-card-button-container {
+        // border: 2px solid red;
+        margin: 0 auto; 
+        width: 200px;
+        // display: flex;
+        // justify-content: space-around;
+
+    }
+
+    .project-card-button-container button {
+        // border: 2px solid red;
+        width: 80px; 
+        height: 30px;
+        color: white;
+        background-color: #91B0B8;
+        border-radius: 4px;
+        border: none;
+        margin: 15px 10px 0 10px;
+        font-size: 1.1em;
+    }
+
+}
