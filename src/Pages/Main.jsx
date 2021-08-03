@@ -9,29 +9,76 @@ import axios from 'axios'
 // Sheet number: 1
 //https://spreadsheets.google.com/feeds/list/SHEET_ID/SHEET_NUMBER/public/full?alt=json
 // correct path = https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json
+
 const url = 'https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json'
+// console.log('this is a test', url.feed.gsx$project.$t);
 
 
 const Main = () => {
-    // console.log('google spreadsheet data MAIN =>',url);
-    
-    // const googleURL = 'https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json'
-    
-    const [isLoaded, setIsLoaded] = useState(null)
+    const [projects, setProjects] = useState(null)
 
+    useEffect( () => {getData()}, [])
+    // const getData = async () => {
+    //     // fetch(url)
+    //     // .then((res) => {
+    //     //     return res.json()
+    //     // })
+    //     // .then((data) => {
+    //     //     console.log('google sheet data object=>',data)
+    //     //     const projects = data.feed.entry.map((item, index) => {
+    //     //         return {
+    //     //             name: item.gsx$project.$t, 
+    //     //             git: item.gsx$giturl.$t,
+    //     //             live: item.gsx$liveurl.$t,
+    //     //             img: item.gsx$image.$t,
+    //     //             description: item.gsx$image.$t,
+    //     //         }
+    //     //     })
+    //     //     setIsLoaded(data)
+    //     //     console.log(projects)
+
+    //     //     // const finalProjectRender = projects.map((item) => {
+    //     //     //     // return (<>
+    //     //     //     //     <div>`${item.name}`</div>
+    //     //     //     //     <div>`${item.name}`</div>
+    //     //     //     //     <div>`${item.name}`</div>
+    //     //     //     //     </>
+    //     //     //     // )
+
+    //     //     // })
+    //     // })
+
+
+    // }
+    // this method below works as well using the async / await
     const getData = async () => {
         const response = await fetch(url)
-        console.log('got the data!', url)
+        // console.log('got the data!', url)
         const data = await response.json()
-        setIsLoaded(data)
+        // setIsLoaded(data)
+         setProjects(data.feed.entry.map((item, index) => {
+            return {
+                title: item.title.$t
+            }
+         }))
+        // console.log('project data', data);
     }
-    useEffect( () => {getData()}, [])
 
     const loaded = () => {
+        // console.log('isLoaded', isLoaded);
+        // console.log('isLoaded', isLoaded.feed.entry[0].title);
+    
+        // const projectName = isLoaded[0].title
+        // const projectLive = isLoaded.feed.entry[0].gsx$liveurl.$t
+        // console.log('project1 name', projectName);
+        // console.log('project1 live', projectLive);
+
+
        return (
         <div className='main-content'>
             <div id='main-image'>
-                            
+                {/* <h1> A;LSEKTJASL;TKJASTDL;JKSTL;KJ </h1> */}
+                          ``
                 <div id='icons'>
                     <div>
                         <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674460/Portfolio%20Website%202/React_Icon-08_ihg8yn.png'/>
@@ -62,6 +109,11 @@ const Main = () => {
                 <hr></hr>
                 <h3>MY WORK</h3>
             </div>
+            <div>
+                <h1>THIS IS WHERE THE CARDS WILL GO</h1>
+                {projects.map((item, index) => (<h1>{item.title}</h1>))}
+                
+            </div>
         
             <div className='sticky-footer'>
             {/* <h1>This is the main page</h1> */}
@@ -70,10 +122,9 @@ const Main = () => {
     )
     }
     const loading = () => {
-        console.log('this is not loading')
         return <h1>Loading...</h1>
     }
-    return isLoaded ? loaded() : loading()
+    return projects ? loaded() : loading()
 
 
 
