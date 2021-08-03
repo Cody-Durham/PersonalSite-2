@@ -15,7 +15,9 @@ import {useState} from 'react'
 
 
 function App() {
-  const googleURL = 'https://docs.google.com/spreadsheets/d/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/edit#gid=0'
+  // // const googleURL = 'https://docs.google.com/spreadsheets/d/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/edit#gid=0'
+  // const googleURL = 'https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json'
+
     // console.log('google spreadsheet data =>',googleURL);
     // const split = googleURL.entry[0].gsx$project.$t
  
@@ -25,7 +27,7 @@ function App() {
 
         <Switch>
           <Route exact path='/'>
-            <Main googleURL={ googleURL } /> 
+            <Main /> 
           </Route>
           
           <Route path='/about' component= { About } >
