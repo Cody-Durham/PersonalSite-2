@@ -11,9 +11,9 @@
 
 }
 .project-card-container {
-    border: 2px solid red;
+    // border: 2px solid red;
     width: 30%;
-    height: 550px;
+    height: 500px;
     margin-top: 10px;
     margin-bottom: 40px;
     display: flex;
@@ -24,11 +24,17 @@
         // border: 2px solid aquamarine;
         width: 350px;
         height: 500px;
+        & h3 {
+            // color: red;
+            margin: 0 0 20px 0;
+            padding-top: 10px;
+            border-top: 2px solid var(--buttonColor);
+        }
     }
 
     .project-card-icon {
         // border: 2px solid red;
-        margin: 0 0 20px 0;
+        margin: 40px 0 20px 0;
     }
 
     .project-card-title h3 { 
@@ -88,21 +94,5 @@
             background-color: var(--buttonColorHover); 
             font-size: 1.08em;
         }
-    }
-
-   
-    
+    }   
 }
-
-
-footer a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: bold;
-    transition: all 500ms;
-  }
-  footer a:hover{
-    color: #FFF8D9;
-    font-size: 1.1em;
-    font-size-adjust: 20px;
-  }
