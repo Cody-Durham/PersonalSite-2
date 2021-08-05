@@ -12,42 +12,34 @@
 }
 .project-card-container {
     // border: 2px solid red;
-    background-color: var(--fontBlack);
-    background: linear-gradient(to top, var(--fontBlack), white);
-    height: 500px;
+    // background-color: var(--fontBlack);
+    // background: linear-gradient(to top, var(--fontBlack), white);
+    border: 1px solid var(--fontBlack);
+    height: 550px;
     display: flex;
     flex-direction: column;
     margin: 10px 20px 40px 20px;
-    border-radius: 8px;
+    border-radius: 5px;
+    line-height: 25px;
 
     .project-card {
         // border: 2px solid aquamarine;
         width: 350px;
         height: 500px;
         padding: 0 20px 0 20px;
-        color: white;
 
         & h3 {
             // color: red;
-            // color: rgb(186, 185, 185);
-            
+            color: rgb(76, 76, 76);
             margin: 0 0 20px 0;
             padding-top: 20px;
-            border-top: 2px solid var(--buttonColor);
+            border-top: 1px solid rgb(202, 202, 202);
         }
     }
 
     .project-card-icon {
         // border: 2px solid red;
         margin: 20px 0 20px 0;
-    }
-
-    .project-card-text p {
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        font-size: 1.1em;
-        line-height: 30px;
-        padding: 20px;
     }
 
     .project-card-button-container {
@@ -63,7 +55,6 @@
         width: 200px;
         display: flex;
         justify-content: space-between;
-
 
         .project-card-buttons {
             background-color: aquamarine;
