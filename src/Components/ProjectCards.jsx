@@ -38,11 +38,11 @@ const ProjectCards = ( {url} ) => {
         return (
             <>
             <div className='project-card-wrapper'>
+
                 <div className='project-card-container'>
                     <div className='project-card-icon'>
                         <img src={item.gsx$image2.$t} /> 
                     </div>
-                    
                     <div className='project-card'>
                         <h3>{item.title.$t}</h3>
                         <p>{item.gsx$description.$t}</p>
@@ -55,9 +55,6 @@ const ProjectCards = ( {url} ) => {
                                 <a href={item.gsx$giturl.$t} target='blank'>GIT </a>
                             </div> 
                         </div>
-                          
-                        
-
                     </div>
                 </div>
 
@@ -68,22 +65,11 @@ const ProjectCards = ( {url} ) => {
 
     const loaded = () => {
         return (
-            
-                <>
-                    {/* <div className='project-card-icon'>
-                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628029356/Portfolio%20Website%202/GoFish_Card-17_rldjwp.png' /> 
-                    </div> */}
-
-                    <div className='project-card-title'>
-                        {finalProjectsRender}
-                        {/* {projects.map((item, index) => 
-                            <div key={index}>
-                                <h1>{item.title}</h1>
-                                <h3>{item.test}</h3>
-                            </div>)} */}
-                    </div>                
-                </>
-            
+            <>
+                <div className="project-card-main-collection">
+                    {finalProjectsRender}
+                </div>                
+            </>  
         )
     }
     const loading = () => {
