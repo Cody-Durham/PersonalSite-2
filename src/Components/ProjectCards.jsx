@@ -1,56 +1,85 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import '../Styles/ProjectCards.scss'
+import '../Styles/ProjectCards.scss';
 
 
-const url = 'https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json'
-const ProjectCards = () => {
+const ProjectCards = ( {url} ) => {
+    // console.log(url);
+    
+    const [projects, setProjects] = useState([])
+    useEffect( () => {getData()}, [])
 
-    // const [projects, setProjects] = useState(null)
+    const getData = async () => {
+        const response = await fetch(url)
+        // console.log('got the url!', url)
+       
+        const data = await response.json()
+        
+        // setProjects(data.feed.entry.map((item, index) => {
+        //     return {
+        //         // title: item.title.$t,
+        //         // live: item.gsx$liveurl.$t,
+        //         // git: item.gsx$giturl.$t, 
+        //         // image: item.gsx$image.$t,
+        //         // // description: item.gsx$description.$t
+        //         // test: item.gsx$testcolumn.$t
+        //     }
+        //  }))
+        setProjects(data.feed.entry) 
 
-    // useEffect( () => {getData()}, [])
-    // const getData = async () => {
-    //     const response = await fetch(url)
-    //     // console.log('got the data!', url)
-    //     const data = await response.json()
-    //     // setIsLoaded(data)
-    //      setProjects(data.feed.entry.map((item, index) => {
-    //         return {
-    //             title: item.title.$t
-    //         }
-    //     }))
-    //     console.log('project data', data);
-    // }
 
-       return (
-        //    <h3>testing</h3>
-        <div className='project-card-container'>
-            <div className='project-card'>
-                <div className='project-card-icon'>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628029356/Portfolio%20Website%202/GoFish_Card-17_rldjwp.png' /> 
-                </div>
 
-                <div className='project-card-title'>
-                    <h3>Go Fish</h3>
-                </div>
-                <div className='project-card-text'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio maiores, aut accusantium eum earum architecto modi placeat nisi quaerat tenetur. Fuga quis est voluptate incidunt ab nemo, laboriosam dolore?</p>
-                </div>
-                
-                <div className='project-card-button-container'>
-                    <div className='project-card-buttons'>
-                        <button>Live</button>
-                        <button>Git</button>
+        console.log('project data', data);
+        // // console.log('project data', data.feed.entry[0].title); //=> GoFish// working correctly    
+        // console.log('project dataaaaaaaaa', data.feed.entry); //=> GoFish// working correctly    
+    }
+    
+    const finalProjectsRender = projects.map((item, index) => {
+        return (
+            <>
+            <div className='project-card-wrapper'>
+
+                <div className='project-card-container'>
+                    <div className='project-card-icon'>
+                        <img src={item.gsx$image2.$t} /> 
+                    </div>
+                    <div className='project-card'>
+                        <h3>{item.title.$t}</h3>
+                        <p>{item.gsx$description.$t}</p>
+
+                        <div className='project-card-button-container'>
+                            <div className='project-card-buttons'>
+                                <a href={item.gsx$liveurl.$t} target='blank'>LIVE </a>
+                            </div>                    
+                            <div className='project-card-buttons'>
+                                <a href={item.gsx$giturl.$t} target='blank'>GIT </a>
+                            </div> 
+                        </div>
                     </div>
                 </div>
 
-
             </div>
-         </div>
-    )
-    
+            </>
+        )
+    })
+
+    const loaded = () => {
+        return (
+            <>
+                <div className="project-card-main-collection">
+                    {finalProjectsRender}
+                </div>                
+            </>  
+        )
+    }
+    const loading = () => {
+        return <h1>Loading this page..!</h1>
+    }
+    return projects ? loaded() : loading()
+   
     
 }
-{/* {projects.map((item, index) => (<h1>{item.title}</h1>))} */}
 
+
+// console.log(url);
 export default ProjectCards
