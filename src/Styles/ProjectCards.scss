@@ -73,40 +73,36 @@
         }
         .project-card-buttons a {
             // border: 2px solid hotpink;
-            color: white;
             text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 30px;
+            border-radius: 4px;
+            color: white;
+            transition: all 0.2s ease 0s;
+        }
+        & :hover {
+            cursor: pointer;
+            background-color: var(--buttonColorHover); 
+            font-size: 1.08em;
         }
     }
 
-    // .project-card-buttons {
-    //     border: 2px solid green;
-    //     width: 120px; 
-    //     background-color: var(--buttonColor);
-    //     margin: 20px 30px;
-    //     border-radius: 4px;
-    //     border: none;
-    //     font-size: 1.1em;
-    //     text-decoration: none;
-    // }
-
-    // .project-card-button-container a {
-    //     // border: 2px solid red;
-    //     width: 120px; 
-    //     height: 30px;
-    //     color: white;
-    //     background-color: var(--buttonColor);
-    //     border-radius: 4px;
-    //     border: none;
-    //     margin: 15px 10px 0 10px;
-    //     font-size: 1.1em;
-    // }
-
+   
     
 }
 
 
-// .project-card-buttons :hover {
-//     // cursor: pointer;
-//     // background-color: var(--buttonColorHover);
-//     background-color: red;
-// }
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: all 500ms;
+  }
+  footer a:hover{
+    color: #FFF8D9;
+    font-size: 1.1em;
+    font-size-adjust: 20px;
+  }

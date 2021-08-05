@@ -36,6 +36,7 @@ const ProjectCards = ( {url} ) => {
     
     const finalProjectsRender = projects.map((item, index) => {
         return (
+            <>
             <div className='project-card-wrapper'>
                 <div className='project-card-container'>
                     <div className='project-card-icon'>
@@ -61,6 +62,7 @@ const ProjectCards = ( {url} ) => {
                 </div>
 
             </div>
+            </>
         )
     })
 
