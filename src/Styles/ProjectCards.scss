@@ -12,19 +12,27 @@
 }
 .project-card-container {
     // border: 2px solid red;
+    background-color: var(--fontBlack);
+    background: linear-gradient(to top, var(--fontBlack), white);
     height: 500px;
     display: flex;
     flex-direction: column;
     margin: 10px 20px 40px 20px;
+    border-radius: 8px;
 
     .project-card {
         // border: 2px solid aquamarine;
         width: 350px;
         height: 500px;
+        padding: 0 20px 0 20px;
+        color: white;
+
         & h3 {
             // color: red;
+            // color: rgb(186, 185, 185);
+            
             margin: 0 0 20px 0;
-            padding-top: 10px;
+            padding-top: 20px;
             border-top: 2px solid var(--buttonColor);
         }
     }
@@ -32,13 +40,6 @@
     .project-card-icon {
         // border: 2px solid red;
         margin: 20px 0 20px 0;
-    }
-
-    .project-card-title h3 { 
-        // border: 2px solid red;
-        margin: 0 0 20px 0;
-        color: var(--fontBlack);
-        font-size: 1.5em;
     }
 
     .project-card-text p {
@@ -85,7 +86,7 @@
             height: 30px;
             border-radius: 4px;
             color: white;
-            transition: all 0.2s ease 0s;
+            transition: all 0.2s 0s;
         }
         & :hover {
             cursor: pointer;
