@@ -14,29 +14,14 @@ const ProjectCards = ( {url} ) => {
         // console.log('got the url!', url)
        
         const data = await response.json()
-        
-        // setProjects(data.feed.entry.map((item, index) => {
-        //     return {
-        //         // title: item.title.$t,
-        //         // live: item.gsx$liveurl.$t,
-        //         // git: item.gsx$giturl.$t, 
-        //         // image: item.gsx$image.$t,
-        //         // // description: item.gsx$description.$t
-        //         // test: item.gsx$testcolumn.$t
-        //     }
-        //  }))
         setProjects(data.feed.entry) 
-
-
-
         console.log('project data', data);
-        // // console.log('project data', data.feed.entry[0].title); //=> GoFish// working correctly    
+        // console.log('project data', data.feed.entry[0].title); //=> GoFish// working correctly    
         // console.log('project dataaaaaaaaa', data.feed.entry); //=> GoFish// working correctly    
     }
     
     const finalProjectsRender = projects.map((item, index) => {
         return (
-            <>
             <div className='project-card-wrapper'>
 
                 <div className='project-card-container'>
@@ -57,19 +42,15 @@ const ProjectCards = ( {url} ) => {
                         </div>
                     </div>
                 </div>
-
             </div>
-            </>
         )
     })
 
     const loaded = () => {
         return (
-            <>
-                <div className="project-card-main-collection">
-                    {finalProjectsRender}
-                </div>                
-            </>  
+            <div className="project-card-main-collection">
+                {finalProjectsRender}
+            </div>                
         )
     }
     const loading = () => {
@@ -80,6 +61,4 @@ const ProjectCards = ( {url} ) => {
     
 }
 
-
-// console.log(url);
 export default ProjectCards
