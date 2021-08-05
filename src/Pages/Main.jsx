@@ -72,7 +72,7 @@ const Main = ( {url} ) => {
     //     // console.log('got the data!', url)
     //     const data = await response.json()
     //     // setIsLoaded(data)
-    //      setProjects(data.feed.entry.map((item, index) => {
+        //  setProjects(data.feed.entry.map((item, index) => {
     //         return {
     //             title: item.title.$t
     //         }

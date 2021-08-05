@@ -6,14 +6,19 @@
     --buttonColor: #91B0B8;
     --buttonColorHover: #66878f;
 }
+.project-card-wrapper {
+    border: 2px solid aquamarine;
 
+}
 .project-card-container {
-    // border: 2px solid red;
-    width: 100%;
+    border: 2px solid red;
+    width: 30%;
     height: 550px;
     margin-top: 10px;
     margin-bottom: 40px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .project-card {
         // border: 2px solid aquamarine;
@@ -42,27 +47,66 @@
 
     .project-card-button-container {
         // border: 2px solid red;
-        margin: 0 auto; 
-        width: 200px;
-        // display: flex;
-        // justify-content: space-around;
-
+        margin: 20px auto; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
-    .project-card-button-container button {
+    .project-card-button-container {
         // border: 2px solid red;
-        width: 80px; 
-        height: 30px;
-        color: white;
-        background-color: var(--buttonColor);
-        border-radius: 4px;
-        border: none;
-        margin: 15px 10px 0 10px;
-        font-size: 1.1em;
-    }
-    .project-card-buttons :hover {
-        cursor: pointer;
-        background-color: var(--buttonColorHover);
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .project-card-buttons {
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 30px;
+            border-radius: 4px;
+            background-color: var(--buttonColor);
+            // text-decoration: none;
+        }
+        .project-card-buttons a {
+            // border: 2px solid hotpink;
+            color: white;
+            text-decoration: none;
+        }
     }
 
+    // .project-card-buttons {
+    //     border: 2px solid green;
+    //     width: 120px; 
+    //     background-color: var(--buttonColor);
+    //     margin: 20px 30px;
+    //     border-radius: 4px;
+    //     border: none;
+    //     font-size: 1.1em;
+    //     text-decoration: none;
+    // }
+
+    // .project-card-button-container a {
+    //     // border: 2px solid red;
+    //     width: 120px; 
+    //     height: 30px;
+    //     color: white;
+    //     background-color: var(--buttonColor);
+    //     border-radius: 4px;
+    //     border: none;
+    //     margin: 15px 10px 0 10px;
+    //     font-size: 1.1em;
+    // }
+
+    
 }
+
+
+// .project-card-buttons :hover {
+//     // cursor: pointer;
+//     // background-color: var(--buttonColorHover);
+//     background-color: red;
+// }
