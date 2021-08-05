@@ -35,11 +35,20 @@ const Main = ( {url} ) => {
                         <div>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674432/Portfolio%20Website%202/AWS_Icon-14_s0xn9o.png'/>
                         </div>
+                        <div>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200490/Portfolio%20Website%202/Illustrator_Icon-23_lh5gej.png'/>
+                        </div>
+                        <div>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200562/Portfolio%20Website%202/Photoshop_Icon-24_xvpq3a.png'/>
+                        </div>
+                        <div>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200567/Portfolio%20Website%202/Indesign_Icon-25_uwdiv5.png'/>
+                        </div>
                     </div>
     
                 </div>
                 <div id='main-branding-statement'>
-                    <p>I'm an Industrial Designer turned Developer that's able to utilize my creativity to take simple ideas and turn them into modern designs.  With a fortitude and passion for being a creator, I set high standards for all projects I take on. Leveraging a background in consumer-facing product design in multiple fields, you can count on me to bring reflection, personal growth, dependability and consistency to our work. Never compromising on quality or reliability, I'm able to achieve results while scoping deliverables, collaborating, and managing multiple projects</p>
+                    <p>I'm an <span>Industrial Designer</span> turned <span>Developer</span> that's able to utilize my creativity to take simple ideas and turn them into modern designs.  With a fortitude and passion for being a creator, I set high standards for all projects I take on. Leveraging a background in consumer-facing product design in multiple fields, you can count on me to bring reflection, personal growth, dependability and consistency to our work. Never compromising on quality or reliability, I'm able to achieve results while scoping deliverables, collaborating, and managing multiple projects</p>
                 </div>
     
                 <div id='main-my-work'>

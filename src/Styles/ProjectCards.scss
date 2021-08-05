@@ -21,12 +21,14 @@
     margin: 10px 20px 40px 20px;
     border-radius: 5px;
     line-height: 25px;
+    // filter: drop-shadow(5px 4px 4px black);
 
     .project-card {
         // border: 2px solid aquamarine;
         width: 350px;
         height: 500px;
         padding: 0 20px 0 20px;
+        color: rgb(104, 104, 104);
 
         & h3 {
             // color: red;
@@ -39,6 +41,8 @@
 
     .project-card-icon {
         // border: 2px solid red;
+        filter: drop-shadow(5px 4px 4px rgb(116, 115, 115));
+        opacity: (.8);
         margin: 20px 0 20px 0;
     }
 
@@ -57,7 +61,7 @@
         justify-content: space-between;
 
         .project-card-buttons {
-            background-color: aquamarine;
+            // background-color: aquamarine;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -65,6 +69,7 @@
             height: 30px;
             border-radius: 4px;
             background-color: var(--buttonColor);
+            background-color: var(--buttonColorHover);
             // text-decoration: none;
         }
         .project-card-buttons a {
@@ -82,6 +87,7 @@
         & :hover {
             cursor: pointer;
             background-color: var(--buttonColorHover); 
+            background-color: var(--buttonColor); 
             font-size: 1.08em;
         }
     }   

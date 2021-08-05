@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --fontBlack: #6E6E6E;
+    --buttonColor: #91B0B8;
+    --buttonColorHover: #66878f;
+}
 body {
     // background-color: red;
     height: 100%;
@@ -15,7 +20,7 @@ body {
 
      #main-image {
         // border: 2px solid aquamarine;
-        margin: 100px 0 50px 0;
+        margin: 60px 0 50px 0;
         background-image: url('https://res.cloudinary.com/dhad6e9gj/image/upload/v1627942094/Portfolio%20Website%202/hannah-wei-aso6SYJZGps-unsplash_sn0lpw.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
@@ -32,21 +37,30 @@ body {
 
         & div {
             // border: 2px solid red;
+            opacity: (.6);
             margin: 5px 0 5px 0;
         }
     }
     #main-branding-statement {
         // border: 2px solid red;
+        margin: 0 auto;
+        width: 80%;
         font-weight: 500;
         line-height: 28px;
         margin-bottom: 50px;
+        color: rgb(92, 92, 92);
+
+        & span {
+            // color: red; 
+            color: var(--buttonColorHover);
+            color: black;
+        }
     }
     #main-my-work h3 {
         // border: 2px solid red;
         font-size: 1.5em;
         margin-top: 20px;
     }
-
  }
 
 
