@@ -32,14 +32,23 @@ const ProjectCards = ( {url} ) => {
                         <h3>{item.title.$t}</h3>
                         <p>{item.gsx$description.$t}</p>
 
-                        <div className='project-card-button-container'>
+                        {/* <div className='project-card-button-container'>
                             <div className='project-card-buttons'>
                                 <a href={item.gsx$liveurl.$t} target='blank'>LIVE </a>
                             </div>                    
                             <div className='project-card-buttons'>
                                 <a href={item.gsx$giturl.$t} target='blank'>GIT </a>
                             </div> 
-                        </div>
+                        </div> */}
+                    </div>
+
+                    <div className='project-card-button-container'>
+                    <div className='project-card-buttons'>
+                        <a href={item.gsx$liveurl.$t} target='blank'>LIVE </a>
+                    </div>                    
+                    <div className='project-card-buttons'>
+                        <a href={item.gsx$giturl.$t} target='blank'>GIT </a>
+                    </div> 
                     </div>
                 </div>
             </div>

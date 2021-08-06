@@ -21,7 +21,7 @@
     margin: 10px 20px 40px 20px;
     border-radius: 5px;
     line-height: 25px;
-    // filter: drop-shadow(5px 4px 4px black);
+    
 
     .project-card {
         // border: 2px solid aquamarine;
@@ -52,19 +52,21 @@
         }
     }
 
-    .project-card-button-container {
-        // border: 2px solid red;
-        margin: 20px auto; 
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+    // .project-card-button-container {
+    //     // border: 2px solid red;
+    //     margin: 20px auto; 
+    //     width: 100%;
+    //     display: flex;
+    //     justify-content: center;
+    // }
 
     .project-card-button-container {
         border: 2px solid red;
         width: 200px;
         display: flex;
         justify-content: space-between;
+        margin: 0 auto;
+        // margin-top: 40px;
 
         .project-card-buttons {
             // background-color: aquamarine;
@@ -76,7 +78,7 @@
             border-radius: 4px;
             background-color: var(--buttonColor);
             background-color: var(--buttonColorHover);
-            // text-decoration: none;
+            margin-bottom: 20px;
         }
         .project-card-buttons a {
             // border: 2px solid hotpink;
