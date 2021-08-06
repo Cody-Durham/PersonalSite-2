@@ -44,6 +44,12 @@
         filter: drop-shadow(5px 4px 4px rgb(116, 115, 115));
         opacity: (.8);
         margin: 20px 0 20px 0;
+        
+        & :hover {
+            transition: all 1.3s ease 0s;
+            transform: scale(1.2) rotate(360deg);
+            // border: 2px solid red;   
+        }
     }
 
     .project-card-button-container {
@@ -55,7 +61,7 @@
     }
 
     .project-card-button-container {
-        // border: 2px solid red;
+        border: 2px solid red;
         width: 200px;
         display: flex;
         justify-content: space-between;

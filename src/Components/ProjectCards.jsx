@@ -26,7 +26,7 @@ const ProjectCards = ( {url} ) => {
 
                 <div className='project-card-container'>
                     <div className='project-card-icon'>
-                        <img src={item.gsx$image2.$t} /> 
+                        <a href={item.gsx$liveurl.$t} target='blank'><img src={item.gsx$image2.$t} /></a>
                     </div>
                     <div className='project-card'>
                         <h3>{item.title.$t}</h3>
