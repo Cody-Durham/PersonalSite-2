@@ -17,6 +17,7 @@ body {
      max-width: 1200px;
      margin: 0 auto;
      min-height: 75vh;
+     margin-top: 180px;
 
      #main-image {
         // border: 2px solid aquamarine;
@@ -27,6 +28,7 @@ body {
         padding-bottom: 28em;
         display: flex;
         justify-content: flex-end;
+        // z-index: -1;
     }
     #icons {
         // border: 2px solid red;
@@ -37,7 +39,8 @@ body {
 
         & div {
             // border: 2px solid red;
-            opacity: (.6);
+            // z-index: -1;
+            // opacity: (.2);
             margin: 5px 0 5px 0;
         }
     }
@@ -50,6 +53,10 @@ body {
         line-height: 40px;
         margin-bottom: 50px;
         color: rgb(92, 92, 92);
+         
+        & h3 {
+            color: red;
+        }
 
         & span {
             // color: red; 
