@@ -1,8 +1,11 @@
 import React from 'react'
+import '../Styles/Contact.scss'
 
 const Contact = () => {
     return (
-        <p>This is the Contact page</p>
+        <div className="contact-main-section">
+            <p>This is the Contact page</p>
+        </div>
     )
 }
 

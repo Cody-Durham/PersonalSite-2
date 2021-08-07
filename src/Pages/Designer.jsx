@@ -1,8 +1,11 @@
 import React from 'react'
+import '../Styles/Designer.scss'
 
 const Designer = () => {
     return (
-        <p>This is the Designer page!!!</p>
+        <div className='designer-main-section'>
+            <p>This is the Designer page!!!</p>
+        </div>
     )
 }
 
