@@ -47,13 +47,18 @@ const Main = ( {url} ) => {
                     </div>
     
                 </div>
-                <div id='main-branding-statement'>
+                {/* <div id='main-branding-statement'>
                     <p>I'm an <span>Industrial Designer</span> turned <span>Developer</span> that's able to utilize my creativity to take simple ideas and turn them into modern designs.  With a fortitude and passion for being a creator, I set high standards for all projects I take on. Leveraging a background in consumer-facing product design in multiple fields, you can count on me to bring reflection, personal growth, dependability and consistency to our work. Never compromising on quality or reliability, I'm able to achieve results while scoping deliverables, collaborating, and managing multiple projects</p>
+                </div> */}
+                <div id='main-branding-statement'>
+                    <p>Welcome to my site!</p>
+                    <br></br>
+                    <p>Im an Industrial Designer turned Software Developer and like to make cool 'things' no matter if its written in code, modeled in 3D software, or phically created.  Theres something about being creative and making designs from nothing thats super inspiring. </p>
                 </div>
     
                 <div id='main-my-work'>
-                    <hr></hr>
-                    <h3>MY PROJECTS</h3>
+                    {/* <hr></hr> */}
+                    <h3>FEATURED PROJECTS</h3>
                 </div>
                 <div>
                     {/* Keeping this line of code for future reference. Mentor said this is pretty common to map in JSX */}
