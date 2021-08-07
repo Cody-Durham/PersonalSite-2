@@ -53,7 +53,7 @@ const Main = ( {url} ) => {
     
                 <div id='main-my-work'>
                     <hr></hr>
-                    <h3>MY WORK</h3>
+                    <h3>MY PROJECTS</h3>
                 </div>
                 <div>
                     {/* Keeping this line of code for future reference. Mentor said this is pretty common to map in JSX */}
