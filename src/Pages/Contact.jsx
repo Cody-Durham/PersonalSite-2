@@ -5,6 +5,9 @@ const Contact = () => {
     return (
         <div className="contact-main-section">
             <p>This is the Contact page</p>
+            <form>
+                
+            </form>
         </div>
     )
 }
