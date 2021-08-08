@@ -1,10 +1,12 @@
 import React from 'react'
 import '../Styles/About.scss'
+import '../Components/UnderConstruction'
+import UnderConstruction from '../Components/UnderConstruction'
 
 const About = () => {
     return (
         <div className='about-main-section'>
-            <p>This is the about section!! Its working </p>
+            <UnderConstruction /> 
         </div>
     )
 }
