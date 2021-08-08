@@ -47,8 +47,9 @@ const ProjectCards = ( {url} ) => {
                         <a href={item.gsx$liveurl.$t} target='blank'>LIVE </a>
                     </div>                    
                     <div className='project-card-buttons'>
-                        <a href={item.gsx$giturl.$t} target='blank'>GIT </a>
+                        <a href={item.gsx$giturl.$t} target='blank'>GIT</a>
                     </div> 
+                    
                     </div>
                 </div>
             </div>

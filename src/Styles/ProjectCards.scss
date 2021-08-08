@@ -38,6 +38,19 @@
             border-top: 1px solid rgb(202, 202, 202);
         }
     }
+//////////// original styling for icon on project card ////////////////// 
+    // .project-card-icon {
+    //     // border: 2px solid red;
+    //     filter: drop-shadow(5px 4px 4px rgb(116, 115, 115));
+    //     opacity: (.8);
+    //     margin: 20px 0 20px 0;
+        
+    //     & :hover {
+    //         transition: all 1.3s ease 0s;
+    //         transform: scale(1.2) rotate(360deg);
+    //         // border: 2px solid red;   
+    //     }   
+    // }
 
     .project-card-icon {
         // border: 2px solid red;
@@ -46,11 +59,20 @@
         margin: 20px 0 20px 0;
         
         & :hover {
-            transition: all 1.3s ease 0s;
+            transition: all .7s ease 0s;
             transform: scale(1.2) rotate(360deg);
             // border: 2px solid red;   
-        }
+        }   
     }
+////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
 
     .project-card-button-container {
         // border: 2px solid red;
