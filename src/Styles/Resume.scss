@@ -1,4 +1,19 @@
 .resume-main-section {
-    border: 2px solid red;
-    margin: 150px 0 0 0;
+    // border: 2px solid red;
+    // max-width: 1200px;
+    // height: 100%;
+    // margin-top: 150px;
+    height: 89vh;
+    max-width: 1200px;
+    // margin-top: 150px;
+    margin: 0 auto;
+    padding-top: 150px;
+   
+    & img {
+        // border: 2px solid blue;
+        max-width: 1200px;
+        margin: 40px 0 40px 0; 
+    }
+
+
 }
