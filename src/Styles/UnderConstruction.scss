@@ -1,12 +1,18 @@
 .construction-container {
     // border: 4px solid hotpink;
+    & .construction-text {
+        background-color: rgb(152, 214, 218);
+        padding: 20px;
+        border-radius: 10px;
+    }
 
     & div img {
         // border: 2px solid red;
-        margin-top: 50px;
+        // margin-top: 50px;
         width: 100%;
         height: 60vh;
         object-fit: cover;
+        border-radius: 10px;
     }
 
 }

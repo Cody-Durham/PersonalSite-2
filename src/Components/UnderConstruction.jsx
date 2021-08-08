@@ -35,6 +35,11 @@ let randomImages = () => {
 
     return (
         <div className='construction-container'>
+            <div className='construction-text'>
+                <h1>Sorry Eh!</h1>
+                <h2>Still workin on this page.. but itll be up soon!</h2>
+            </div>
+
             <div id='construction-image'>
                 <img src={randomImages(constructionImages)}></img>
             </div>
