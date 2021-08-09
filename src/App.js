@@ -8,7 +8,7 @@ import Contact from './Pages/Contact'
 import Resume from './Pages/Resume'
 import Footer from './Components/Footer';
 import './Styles/App.scss'
-import {Switch, Route, Link} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 
 
 

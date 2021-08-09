@@ -1,11 +1,6 @@
 import React from 'react'
-import About from '../Pages/About'
-import Projects from '../Pages/Projects'
-import Designer from '../Pages/Designer'
-import Contact from '../Pages/Contact'
-import Resume from '../Pages/Resume'
 
-import { Route, Link, Switch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../Styles/Header.scss'
 
 const Header = () => {
