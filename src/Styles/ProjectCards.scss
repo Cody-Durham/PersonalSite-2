@@ -25,6 +25,7 @@
 
     .project-card {
         // border: 2px solid aquamarine;
+        z-index: -1;
         width: 350px;
         height: 500px;
         padding: 0 20px 0 20px;
@@ -38,26 +39,13 @@
             border-top: 1px solid rgb(202, 202, 202);
         }
     }
-//////////// original styling for icon on project card ////////////////// 
-    // .project-card-icon {
-    //     // border: 2px solid red;
-    //     filter: drop-shadow(5px 4px 4px rgb(116, 115, 115));
-    //     opacity: (.8);
-    //     margin: 20px 0 20px 0;
-        
-    //     & :hover {
-    //         transition: all 1.3s ease 0s;
-    //         transform: scale(1.2) rotate(360deg);
-    //         // border: 2px solid red;   
-    //     }   
-    // }
 
     .project-card-icon {
         // border: 2px solid red;
-        z-index: -1;
-        filter: drop-shadow(5px 4px 4px rgb(116, 115, 115));
-        opacity: (.8);
         margin: 20px 0 20px 0;
+        // filter: drop-shadow(5px 4px 4px rgb(116, 115, 115)); // this makes the icon 'stick' above the footer? Not sure why...? 
+        // opacity: (.8);
+        // z-index: -1;
         
         & :hover {
             transition: all .7s ease 0s;
@@ -66,13 +54,6 @@
         }   
     }
 ////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
 
 
     .project-card-button-container {
