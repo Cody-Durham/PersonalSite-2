@@ -7,6 +7,7 @@ import Designer from './Pages/Designer'
 import Contact from './Pages/Contact'
 import Resume from './Pages/Resume'
 import Footer from './Components/Footer';
+import Articles from './Pages/Articles'
 import './Styles/App.scss'
 import {Switch, Route} from 'react-router-dom'
 
@@ -29,24 +30,23 @@ function App() {
           </Route>
           
           <Route path='/about' component= { About } >
-            {/* <About />  */}
           </Route>
 
-          <Route path='/projects' component={ Projects }>
-            {/* <Projects /> */}
-          </Route>
+          {/* <Route path='/projects' component={ Projects }>
+          </Route> */}
 
           <Route path='/designer' component={ Designer }>
-            {/* <Designer /> */}
           </Route>
 
           <Route path='/contact' component={ Contact }>
-            {/* <Contact />  */}
           </Route>
 
           <Route path='/resume' component={ Resume }>
-
           </Route>
+
+          <Route path='/articles' component={ Articles }>
+          </Route> 
+
         </Switch>
         <Footer /> 
     </div>
