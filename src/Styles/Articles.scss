@@ -1,10 +1,36 @@
 .article-main-section {
-    border: 2px solid red;
+    border: 2px solid white;
 
     margin-top: 150px;
-    height: 89vh;
+    // height: 89vh;
     // max-width: 1200px;
     // // margin-top: 150px;
     // margin: 0 auto;
     // padding-top: 150px
+     
+    .article-card {
+        border: 1px solid black;
+        // border:2px solid blue;
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 40px;
+    }
+
+    & img {
+        // border: 2px solid aqua;
+        margin-bottom: 30px;
+    }
+
+    & a { 
+        // color: red; 
+        text-decoration: none;
+        color: inherit;
+        font-size: 2em;
+        font-weight: 600;
+    }
 }
