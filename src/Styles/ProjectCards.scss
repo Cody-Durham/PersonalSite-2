@@ -54,6 +54,7 @@
 
     .project-card-icon {
         // border: 2px solid red;
+        z-index: -1;
         filter: drop-shadow(5px 4px 4px rgb(116, 115, 115));
         opacity: (.8);
         margin: 20px 0 20px 0;
