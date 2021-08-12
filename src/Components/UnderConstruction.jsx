@@ -50,7 +50,7 @@ let randomImages = () => {
             </div>
 
             <div id='construction-image'>
-                <img src={randomImages(constructionImages)}></img>
+                <img src={randomImages(constructionImages)} alt='random lego guys doing fun stuff'></img>
             </div>
 
         </div>

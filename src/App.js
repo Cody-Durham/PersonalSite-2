@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Components/Header';
 import Main from './Pages/Main'
 import About from './Pages/About'
-import Projects from './Pages/Projects'
+// import Projects from './Pages/Projects'
 import Designer from './Pages/Designer'
 import Contact from './Pages/Contact'
 import Resume from './Pages/Resume'

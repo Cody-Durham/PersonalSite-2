@@ -5,10 +5,10 @@ const Resume = () => {
     return (<>
         <div className='resume-main-section'>
         <div id='ga-logo'>
-            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628735671/Portfolio%20Website%202/GA_Icons-26_osuqyk.png'></img>
+            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628735671/Portfolio%20Website%202/GA_Icons-26_osuqyk.png' alt='ga icon'></img>
         </div>
         <div className='resume-header'>
-            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628734100/Resume%20/asdfasdfasdfasdfasdfasdf-01-01_rr4ljw.png'></img>
+            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628734100/Resume%20/asdfasdfasdfasdfasdfasdf-01-01_rr4ljw.png' alt='name and contact image'></img>
         </div>
 
 
@@ -111,7 +111,7 @@ const Resume = () => {
     </div>
     <div className='contact-icon-container'>
         <div>
-            <a href='https://www.linkedin.com/in/codydurham/' target='blank'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628738490/Resume%20/Resume_Email_horiz-32_t77vjk.png'></img></a>
+            <a href='https://www.linkedin.com/in/codydurham/' target='blank'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628738490/Resume%20/Resume_Email_horiz-32_t77vjk.png' alt='linkedin icon'></img></a>
         </div>
     </div>
     

@@ -18,31 +18,31 @@ const Main = ( {url} ) => {
                 <div id='main-image'>                         
                     <div id='icons'>
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674460/Portfolio%20Website%202/React_Icon-08_ihg8yn.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674460/Portfolio%20Website%202/React_Icon-08_ihg8yn.png' alt='react.js icon'/>
                         </div>
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674455/Portfolio%20Website%202/Next_Icon-09_lxg2oc.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674455/Portfolio%20Website%202/Next_Icon-09_lxg2oc.png' alt='next.js icon'/>
                         </div>
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674443/Portfolio%20Website%202/Html_Icon-10_vsvllm.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674443/Portfolio%20Website%202/Html_Icon-10_vsvllm.png' alt='html icon'/>
                         </div>
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674436/Portfolio%20Website%202/CSS_Icon-11_we8gb0.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674436/Portfolio%20Website%202/CSS_Icon-11_we8gb0.png' alt='css icon'/>
                         </div>
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674464/Portfolio%20Website%202/Sass_Icon-12_uemkt3.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674464/Portfolio%20Website%202/Sass_Icon-12_uemkt3.png' alt='scss icon'/>
                         </div>
                         {/* <div>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674432/Portfolio%20Website%202/AWS_Icon-14_s0xn9o.png'/>
                         </div> */}
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200490/Portfolio%20Website%202/Illustrator_Icon-23_lh5gej.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200490/Portfolio%20Website%202/Illustrator_Icon-23_lh5gej.png' alt='illustrator icon'/>
                         </div>
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200562/Portfolio%20Website%202/Photoshop_Icon-24_xvpq3a.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200562/Portfolio%20Website%202/Photoshop_Icon-24_xvpq3a.png' alt='photoshop icon'/>
                         </div>
                         <div>
-                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200567/Portfolio%20Website%202/Indesign_Icon-25_uwdiv5.png'/>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200567/Portfolio%20Website%202/Indesign_Icon-25_uwdiv5.png' alt='indesign icon'/>
                         </div>
                     </div>
     
