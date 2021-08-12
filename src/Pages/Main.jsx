@@ -32,9 +32,9 @@ const Main = ( {url} ) => {
                         <div>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674464/Portfolio%20Website%202/Sass_Icon-12_uemkt3.png'/>
                         </div>
-                        <div>
+                        {/* <div>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674432/Portfolio%20Website%202/AWS_Icon-14_s0xn9o.png'/>
-                        </div>
+                        </div> */}
                         <div>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200490/Portfolio%20Website%202/Illustrator_Icon-23_lh5gej.png'/>
                         </div>
