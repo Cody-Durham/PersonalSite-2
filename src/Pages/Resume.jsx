@@ -2,8 +2,26 @@ import React from 'react'
 import '../Styles/Resume.scss'
 
 const Resume = () => {
-    return (
+    return (<>
         <div className='resume-main-section'>
+        <div id='ga-logo'>
+            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628735671/Portfolio%20Website%202/GA_Icons-26_osuqyk.png'></img>
+        </div>
+
+            {/* <div className='contact-icon-container'>
+                <div>
+                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628736535/Resume%20/Resume_GitHub-31_tjbgs6.png'></img>
+                </div>                
+            </div> */}
+
+
+
+
+
+
+
+
+
             <div className='resume-header'>
                 <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628734100/Resume%20/asdfasdfasdfasdfasdfasdf-01-01_rr4ljw.png'></img>
             </div>
@@ -107,22 +125,29 @@ const Resume = () => {
 
 
             </div>
-
-
-
-
-
-            
-
-            {/* <div className='resume-image'>
-                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628396753/Resume%20/RESUME_CodyDurham_SD-6-27-21_WHITE_Artboard_1_r9zsgs.jpg'></img>
-            </div> */}
-
-
-
-
-
         </div>
+
+
+
+        <div className='contact-icon-container'>
+            <div>
+                <a href='https://www.linkedin.com/in/codydurham/' target='blank'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628738490/Resume%20/Resume_Email_horiz-32_t77vjk.png'></img></a>
+            </div>
+            {/* <div>
+                <a href='https://www.linkedin.com/in/codydurham/' target='blank'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628737956/Resume%20/Resume_LinkedIn-28_oh4keo.png'></img></a>
+            </div>
+            <div>
+                <a href='https://github.com/cody-durham' target='blank'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628737960/Resume%20/Resume_GitHub-31_xqp1ws.png'></img></a>
+            </div>
+            <div>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628737960/Resume%20/Resume_Email-29_weyah3.png'></img>
+            </div>
+            <div>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628737956/Resume%20/Resume_Website-30_ocrngp.png'></img>
+            </div> */}
+        </div>
+    
+        </>
     )
 }
 
