@@ -7,7 +7,7 @@ const ProjectCards = ( {url} ) => {
     // console.log(url);
     
     const [projects, setProjects] = useState([])
-    useEffect( () => {getData()}, [])
+    useEffect( () => {getData()})
 
     const getData = async () => {
         const response = await fetch(url)
@@ -22,7 +22,7 @@ const ProjectCards = ( {url} ) => {
     
     const finalProjectsRender = projects.map((item, index) => {
         return (
-            <div className='project-card-wrapper'>
+            <div className='project-card-wrapper' key={index}>
 
                 <div className='project-card-container'>
                     <div className='project-card-icon'>

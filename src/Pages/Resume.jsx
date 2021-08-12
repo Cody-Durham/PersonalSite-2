@@ -8,7 +8,7 @@ const Resume = () => {
             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628735671/Portfolio%20Website%202/GA_Icons-26_osuqyk.png' alt='ga icon'></img>
         </div>
         <div className='resume-header'>
-            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628734100/Resume%20/asdfasdfasdfasdfasdfasdf-01-01_rr4ljw.png' alt='name and contact image'></img>
+            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628734100/Resume%20/asdfasdfasdfasdfasdfasdf-01-01_rr4ljw.png' alt='name and contact'></img>
         </div>
 
 
