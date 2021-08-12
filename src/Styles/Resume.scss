@@ -1,19 +1,118 @@
+:root {
+    --LightGrey: rgb(119, 128, 130);
+    --DarkGrey: rgb(52, 57, 58);
+}
+
+
 .resume-main-section {
     // border: 2px solid red;
-    // max-width: 1200px;
-    // height: 100%;
-    // margin-top: 150px;
-    height: 89vh;
+    // height: 99vh;
     max-width: 1200px;
-    // margin-top: 150px;
     margin: 0 auto;
     padding-top: 150px;
-   
-    & img {
-        // border: 2px solid blue;
-        max-width: 1200px;
-        margin: 40px 0 40px 0; 
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+    .resume-header {
+        // border: 2px solid red;
+        // object-fit: contain;
     }
+
+    #brand-statment {
+        // border: 2px solid red; 
+        // text-align: left;
+    }
+
+    h2 {
+        // color: red;
+        color: var(--LightGrey);
+        margin: 10px 0 10px 0;
+        text-align: left;
+    }
+    h3 {
+        // color: red;
+        text-align: left;
+        margin-top: 30px
+    }
+    h3 span {
+        // color: red;
+        
+        font-size: .8em;
+        margin-left: 20px;
+    }
+    #overall {
+        // color: red; 
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .resume-copy {
+        // color: red;
+        color: var(--DarkGrey);
+        text-align: left;
+        margin-top: 10px;
+        line-height: 25px;
+
+        & span {
+            color: red;
+            color: var(--DarkGrey);
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+    }
+
+    .project-container {
+
+        .project-headings {
+            // color: red;
+            color: var(--DarkGrey);
+            text-align: left;
+            margin: 20px 0 -15px 0;
+            font-size: 1.3em;
+        }
+        .project-copy {
+            // color: red;
+            margin: 15px 0 0 0;
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 30px;
+        }
+        
+    }
+
+
+    ///////////////////////////////////////////////////////////////////////
+    // JOBs here ///////////
+    ///////////////////////////////////////////////////////////////////////
+    .job-container {
+        // border: 2px solid aqua;
+        margin: 40px 0 0 0; 
+        .job {
+            // color: red;
+            text-align: left;
+            margin-top: 20px;
+            font-size: 1.3em;
+        }
+    
+        .job-title {
+            color: rgb(139, 162, 158); 
+            text-align: left;
+        }
+        .project-copy {
+            // color: red;
+            margin: 15px 0 0 0;
+            text-align: left;
+            font-size: 1.1em;
+            line-height: 30px;
+        }
+
+    }
+    
+    // & img {
+    //     // border: 2px solid blue;
+    //     max-width: 1200px;
+    //     margin: 40px 0 40px 0; 
+    // }
 
 
 }
