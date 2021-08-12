@@ -31,15 +31,6 @@ const ProjectCards = ( {url} ) => {
                     <div className='project-card'>
                         <h3>{item.title.$t}</h3>
                         <p>{item.gsx$description.$t}</p>
-
-                        {/* <div className='project-card-button-container'>
-                            <div className='project-card-buttons'>
-                                <a href={item.gsx$liveurl.$t} target='blank'>LIVE </a>
-                            </div>                    
-                            <div className='project-card-buttons'>
-                                <a href={item.gsx$giturl.$t} target='blank'>GIT </a>
-                            </div> 
-                        </div> */}
                     </div>
 
                     <div className='project-card-button-container'>
@@ -51,6 +42,11 @@ const ProjectCards = ( {url} ) => {
                     </div> 
                     
                     </div>
+                    <div className='tech'>
+                        <p>{item.gsx$tech1.$t}</p>
+                        <p>{item.gsx$styling.$t}</p>
+                    </div>
+                 
                 </div>
             </div>
         )

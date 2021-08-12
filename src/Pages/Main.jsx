@@ -53,7 +53,7 @@ const Main = ( {url} ) => {
                 <div id='main-branding-statement'>
                     {/* <h3>Welcome to my site!</h3> */}
                     {/* <br></br> */}
-                    <p>Im an Industrial Designer turned Software Developer and like to make cool 'things' no matter if its written in code, modeled in 3D software, or phically created.  Theres something about being creative and making designs from nothing thats super inspiring. </p>
+                    <p>Im an Industrial Designer turned Software Developer and like to make cool 'things' no matter if its written in code, modeled in 3D software, or physically created.  Theres something about being creative and making designs from nothing thats super inspiring. </p>
                 </div>
     
                 <div id='main-my-work'>
