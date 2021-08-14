@@ -60,8 +60,9 @@ body {
 
         & span {
             // color: red; 
-            color: var(--buttonColorHover);
+            // color: var(--buttonColorHover);
             color: black;
+            font-weight: 600;
         }
     }
     #main-my-work h3 {
