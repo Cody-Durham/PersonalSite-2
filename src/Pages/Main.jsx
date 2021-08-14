@@ -59,9 +59,6 @@ const Main = ( {url} ) => {
                 <div id='main-my-work'>
                     {/* <hr></hr> */}
                     <h3>FEATURED PROJECTS</h3>
-                    <h3>FEATURED PROJECTS</h3>
-                    <h3>FEATURED PROJECTS</h3>
-                    <h3>FEATURED PROJECTS</h3>
                 </div>
                 <div>
                     {/* Keeping this line of code for future reference. Mentor said this is pretty common to map in JSX */}
