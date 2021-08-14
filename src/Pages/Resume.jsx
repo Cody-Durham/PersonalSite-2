@@ -111,7 +111,7 @@ const Resume = () => {
     </div>
     <div className='contact-icon-container'>
         <div>
-            <a href='https://www.linkedin.com/in/codydurham/' target='blank'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628738490/Resume%20/Resume_Email_horiz-32_t77vjk.png' alt='linkedin icon'></img></a>
+           <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628738490/Resume%20/Resume_Email_horiz-32_t77vjk.png' alt='linkedin icon'></img>
         </div>
     </div>
     
