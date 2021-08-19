@@ -6,11 +6,20 @@ import '../Styles/Main.scss'
 // sheet Id: 1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo
 // Sheet number: 1
 //https://spreadsheets.google.com/feeds/list/SHEET_ID/SHEET_NUMBER/public/full?alt=json
+// spreadsheets.google.com/feeds/worksheets/spreadsheetID/public/basic?alt=json
+//https://spreadsheets.google.com/feeds/list/spreadsheet_key/1/public/values?alt=json ????????
+
 // correct path = https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json
 
-// const url = 'https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json'
-// console.log('this is a test', url.feed.gsx$project.$t);
 
+var url = 'https://sheets.googleapis.com/v4/spreadsheets/worksheet_id/values/tab_name?alt=json&key=key-value'
+var url = 'https://sheets.googleapis.com/v4/spreadsheets/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/values/sheet1?alt=json&key=AIzaSyAH8jZ9VxAfW8dsgMnuNOheT8g4KSvm7hI'
+
+
+
+
+
+console.log(url);
 
 const Main = ( {url} ) => {
     return (
