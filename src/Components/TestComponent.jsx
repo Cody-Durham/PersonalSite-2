@@ -24,6 +24,7 @@ const TestComponent = ( {url} ) => {
                     image: item[4],
                     description: item[5], 
                     tech: item[7],
+                    styling: item[10]
                 }
             })
             setProjects(projects)
@@ -50,10 +51,10 @@ const TestComponent = ( {url} ) => {
                             <a href={item.gitURL} target='blank'>GIT</a>
                         </div>
                     </div>
-                    {/* <div className='tech'>
-                        <p>{item.gsx$tech1.$t}</p>
-                        <p>{item.gsx$styling.$t}</p>
-                    </div> */}
+                    <div className='tech'>
+                        <p>{item.tech}</p>
+                        <p>{item.styling}</p>
+                    </div>
                 </div>
             </div>
         
