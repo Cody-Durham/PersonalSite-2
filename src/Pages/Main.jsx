@@ -10,6 +10,7 @@ import TestComponent from '../Components/ProjectCards'
 
 
 // correct path = 'https://sheets.googleapis.com/v4/spreadsheets/worksheet_id/values/tab_name?alt=json&key=key-value'
+// here is the url for the JSON data 'https://sheets.googleapis.com/v4/spreadsheets/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/values/sheet1?alt=json&key=AIzaSyAH8jZ9VxAfW8dsgMnuNOheT8g4KSvm7hI'
 var url = 'https://sheets.googleapis.com/v4/spreadsheets/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/values/sheet1?alt=json&key=AIzaSyAH8jZ9VxAfW8dsgMnuNOheT8g4KSvm7hI'
 
 
