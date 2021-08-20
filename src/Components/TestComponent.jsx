@@ -36,7 +36,7 @@ const TestComponent = ( {url} ) => {
            <div className='project-card-wrapper' key={index}>
                 <div className='project-card-container'>
                     <div className='project-card-icon'>
-                        <a href={item.name} target='blank'><img src={item.image} alt='project icons'/></a>
+                        <a href={item.liveURL} target='blank'><img src={item.image} alt='project icons'/></a>
                     </div>
                     <div className='project-card'>
                         <h3>{item.name}</h3>

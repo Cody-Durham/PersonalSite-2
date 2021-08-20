@@ -71,8 +71,7 @@ const Main = () => {
                 <div>
                     <TestComponent url={url}/> 
                     {/* Keeping this line of code for future reference. Mentor said this is pretty common to map in JSX */}
-                    {/* {projects.map((item, index) => (<h1>{item.title}</h1>))} */}
-                    <ProjectCards/> 
+                    {/* {projects.map((item, index) => (<h1>{item.title}</h1>))} */} 
                 </div>
             </div>
         )   
