@@ -1,7 +1,8 @@
+// import ProjectCards from '../Components/ProjectCards1'
 import ProjectCards from '../Components/ProjectCards'
 import '../Styles/Main.scss'
-import '../Components/TestComponent'
-import TestComponent from '../Components/TestComponent'
+import '../Components/ProjectCards'
+import TestComponent from '../Components/ProjectCards'
 
 
 
@@ -69,7 +70,7 @@ const Main = () => {
                     <h3>FEATURED PROJECTS</h3>
                 </div>
                 <div>
-                    <TestComponent url={url}/> 
+                    {<ProjectCards />}
                     {/* Keeping this line of code for future reference. Mentor said this is pretty common to map in JSX */}
                     {/* {projects.map((item, index) => (<h1>{item.title}</h1>))} */} 
                 </div>
