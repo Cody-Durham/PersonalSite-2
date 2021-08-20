@@ -27,6 +27,21 @@ const Resume = () => {
         
 
         <div className='project-container'>
+        <a href='https://codydurham.dev/' target='blank'><h4 className='project-headings'>Portfolio Website Redesign</h4></a>
+            <ul>
+                <li>
+                    <p className='project-copy'>After completion of General Assembly bootcamp Ive decided to redo my portfolio using React.js in for the frontend development and Google sheets headless CMS as the backend API.</p>
+                </li>
+                <li>
+                    <p className='project-copy'>Using React Router, Link, Axios and SASS I was able to create a multi-page site showing various skills such as design, aesthetic layout, graphic design and technical companticy.</p>
+                </li>
+                <li>
+                    <p className='project-copy'>All icons and graphics were made using Adobe Illustrator, saved to a hosting site, imported into the React project then styled using SASS.</p>
+                </li>
+                <li>
+                    <p className='project-copy'>Using React Router, Link, Axios and SASS I was able to create a multi-page site showing various skills such as design, aesthetic layout, graphic design and technical companticy.</p>
+                </li>
+            </ul>
         <a href='https://main.d38tit84n7ekiv.amplifyapp.com/' target='blank'><h4 className='project-headings'>Project H&M Clone</h4></a>
             <ul>
                 <li>
