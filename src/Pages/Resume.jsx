@@ -51,15 +51,7 @@ const Resume = () => {
                     <p className='project-copy'>My partner and I decided early on during the extensive planning process (2 days) that we would cover more ground if we split the workload. He was primarily responsible for the backend routes using AWS and I was largley responsible for the frontend working with React. I ws responsible for generating and planning out assets, colors, icons and overall layout / creation of the functional site.</p>
                 </li>
             </ul>
-        <a href='https://brave-wozniak-8c8eab.netlify.app/' target='blank'><h4 className='project-headings'>Project Frozzy</h4></a>
-            <ul>
-                <li>
-                    <p className='project-copy'>Worked within a small team to match a provided UI/UX comp to create the working version of the application using full CRUD functionality.</p>
-                </li>
-                <li>
-                    <p className='project-copy'>My primary role in the team was to lead / create our react architecture, create initial wireframes for proof of concept and prototyping as well as providing most of the CSS styling.</p>
-                </li>
-            </ul>
+        
         <a href='https://flamboyant-archimedes-058278.netlify.app/' target='blank'><h4 className='project-headings'>Project GoFish</h4></a>
             <ul>
                 <li>
@@ -72,6 +64,15 @@ const Resume = () => {
                     <p className='project-copy'>All streams routes, weather info, and city name are dependent on zip code information pulled from the API.</p>
                 </li>
             </ul>
+        <a href='https://brave-wozniak-8c8eab.netlify.app/' target='blank'><h4 className='project-headings'>Project Frozzy</h4></a>
+            <ul>
+                <li>
+                    <p className='project-copy'>Worked within a small team to match a provided UI/UX comp to create the working version of the application using full CRUD functionality.</p>
+                </li>
+                <li>
+                    <p className='project-copy'>My primary role in the team was to lead / create our react architecture, create initial wireframes for proof of concept and prototyping as well as providing most of the CSS styling.</p>
+                </li>
+                </ul>
 
             <div>
                 <a href='https://turing.edu/' target='blank'><h3>Turing / Full Immersive<span>10/20-2/21</span></h3></a>
