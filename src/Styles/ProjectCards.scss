@@ -7,7 +7,9 @@
     --buttonColorHover: #66878f;
 }
 .project-card-wrapper {
-    // border: 2px solid aquamarine;
+    border: 2px solid aquamarine;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .project-card-container {
@@ -30,6 +32,7 @@
         height: 500px;
         padding: 0 20px 0 20px;
         color: rgb(104, 104, 104);
+        margin: 0 auto;
 
         & h3 {
             // color: red;

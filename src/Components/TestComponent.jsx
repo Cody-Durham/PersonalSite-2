@@ -33,7 +33,7 @@ const TestComponent = ( {url} ) => {
     
     const finalProjectsRender = projects.map((item, index) => {
         return (
-           <div className='project-card-wrapper' key={index}>
+
                 <div className='project-card-container'>
                     <div className='project-card-icon'>
                         <a href={item.liveURL} target='blank'><img src={item.image} alt='project icons'/></a>
@@ -56,7 +56,7 @@ const TestComponent = ( {url} ) => {
                         <p>{item.styling}</p>
                     </div>
                 </div>
-            </div>
+            
         
         )
     })
@@ -64,9 +64,9 @@ const TestComponent = ( {url} ) => {
     
     const loaded = () => {
         return (
-            <>
-             {finalProjectsRender}
-            </>
+            <div className='project-card-main-collection'>
+                {finalProjectsRender}
+            </div>
             )
         }
         
