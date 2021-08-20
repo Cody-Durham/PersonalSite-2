@@ -1,27 +1,26 @@
 import ProjectCards from '../Components/ProjectCards'
 import '../Styles/Main.scss'
+import '../Components/TestComponent'
+import TestComponent from '../Components/TestComponent'
 
 
-// this is the default URL template
-// sheet Id: 1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo
-// Sheet number: 1
-//https://spreadsheets.google.com/feeds/list/SHEET_ID/SHEET_NUMBER/public/full?alt=json
-// spreadsheets.google.com/feeds/worksheets/spreadsheetID/public/basic?alt=json
-//https://spreadsheets.google.com/feeds/list/spreadsheet_key/1/public/values?alt=json ????????
 
-// correct path = https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json
+// old path = https://spreadsheets.google.com/feeds/list/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/1/public/full?alt=json
 
 
-var url = 'https://sheets.googleapis.com/v4/spreadsheets/worksheet_id/values/tab_name?alt=json&key=key-value'
+// correct path = 'https://sheets.googleapis.com/v4/spreadsheets/worksheet_id/values/tab_name?alt=json&key=key-value'
 var url = 'https://sheets.googleapis.com/v4/spreadsheets/1j85QSABivRQO2ZJQvY48sfWTUv_2jky5JM7abbd6duo/values/sheet1?alt=json&key=AIzaSyAH8jZ9VxAfW8dsgMnuNOheT8g4KSvm7hI'
 
 
+// 
+
+
+// console.log('URL', url);
+// console.log('URL', url);
 
 
 
-console.log(url);
-
-const Main = ( {url} ) => {
+const Main = () => {
     return (
             <div className='main-content'>
                 <div id='main-image'>                         
@@ -70,9 +69,10 @@ const Main = ( {url} ) => {
                     <h3>FEATURED PROJECTS</h3>
                 </div>
                 <div>
+                    <TestComponent url={url}/> 
                     {/* Keeping this line of code for future reference. Mentor said this is pretty common to map in JSX */}
                     {/* {projects.map((item, index) => (<h1>{item.title}</h1>))} */}
-                    <ProjectCards url={url}/> 
+                    {/* <ProjectCards/>  */}
                 </div>
             </div>
         )   
