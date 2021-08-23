@@ -32,6 +32,29 @@ const About = () => {
                 <div id='right-line'></div>
             </div>
 
+            <div className='section2'>
+                <div className='lower-left'>
+                    <ul>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_fishingLogo-35_pgrlpd.png'></img>
+                            <p>I like to fly fish</p>
+                        </li>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_bikingLogo-36_invfke.png'></img>
+                            <p>Its been a while since I've been mountain biking</p>
+                        </li>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_dogLogo-37_n9pevk.png'></img>
+                            <p>My lab pup is everything to me</p>
+                        </li>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_vacuumLogo-38_v6cczd.png'></img>
+                            <p>I used to sell vacuums</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             {/* <UnderConstruction />  */}
         </div>
         </>
