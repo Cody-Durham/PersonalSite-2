@@ -33,7 +33,7 @@ const About = () => {
             </div>
 
             <div className='section2'>
-                <div className='lower-left'>
+                <div className='lower-container'>
                     <ul>
                         <li>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_fishingLogo-35_pgrlpd.png'></img>
@@ -53,7 +53,28 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
+                <div className='lower-container'>
+                    <ul>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_coffeeLogo-39_fgpl6s.png'></img>
+                            <p>II havent taseted sweet caffeine for 5 yrs</p>
+                        </li>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_sandalsLogo-40_q7xxr3.png'></img>
+                            <p>My sandal to shoe ratio is around 4:1</p>
+                        </li>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_oilLogo-41_ov7n7a.png'></img>
+                            <p>I worked on an oil rig, in the winter, at night</p>
+                        </li>
+                        <li>
+                            <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_archeryogo-42_vn9qkh.png'></img>
+                            <p>I enjoy archery</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            
 
 
 
