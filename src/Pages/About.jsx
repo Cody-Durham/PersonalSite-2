@@ -12,7 +12,8 @@ const About = () => {
             <div className='section1'>
                 <div className='left'>
                     <div>
-                        <h1>About</h1>
+                        {/* <h1>About</h1> */}
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629801794/Portfolio%20Website%202/Page%20Headers/About_Header-43_tjvany.png'></img>
                     </div>
                     <div>
                         <p>Im a creative software engineer located in Devner Colordo</p>
