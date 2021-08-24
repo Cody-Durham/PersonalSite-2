@@ -1,8 +1,7 @@
-// import ProjectCards from '../Components/ProjectCards1'
-import ProjectCards from '../Components/ProjectCards'
-import '../Styles/Main.scss'
-import '../Components/ProjectCards'
-import TestComponent from '../Components/ProjectCards'
+import ProjectCards from '../Components/ProjectCards';
+import '../Styles/Main.scss';
+import '../Components/ProjectCards';
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -25,7 +24,8 @@ var url = 'https://sheets.googleapis.com/v4/spreadsheets/1j85QSABivRQO2ZJQvY48sf
 const Main = () => {
     return (
             <div className='main-content'>
-                <div id='main-image'>                         
+                <div id='main-image'>  
+                <Fade left>
                     <div id='icons'>
                         <div>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674460/Portfolio%20Website%202/React_Icon-08_ihg8yn.png' alt='react.js icon'/>
@@ -55,7 +55,7 @@ const Main = () => {
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1628200567/Portfolio%20Website%202/Indesign_Icon-25_uwdiv5.png' alt='indesign icon'/>
                         </div>
                     </div>
-    
+                </Fade>                       
                 </div>
                 {/* <div id='main-branding-statement'>
                     <p>I'm an <span>Industrial Designer</span> turned <span>Developer</span> that's able to utilize my creativity to take simple ideas and turn them into modern designs.  With a fortitude and passion for being a creator, I set high standards for all projects I take on. Leveraging a background in consumer-facing product design in multiple fields, you can count on me to bring reflection, personal growth, dependability and consistency to our work. Never compromising on quality or reliability, I'm able to achieve results while scoping deliverables, collaborating, and managing multiple projects</p>
