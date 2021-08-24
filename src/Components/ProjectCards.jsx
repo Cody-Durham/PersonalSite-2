@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import '../Styles/ProjectCards.scss';
 import Tabletop from 'tabletop'
 import axios from 'axios'
+import Fade from 'react-reveal/Fade';
 
 
 const TestComponent = ( {url} ) => {
@@ -65,7 +66,9 @@ const TestComponent = ( {url} ) => {
     const loaded = () => {
         return (
             <div className='project-card-main-collection'>
-                {finalProjectsRender}
+                <Fade bottom>
+                    {finalProjectsRender}
+                </Fade>
             </div>
             )
         }
