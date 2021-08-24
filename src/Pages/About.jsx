@@ -18,7 +18,7 @@ const About = () => {
                         <p>Im a creative software engineer located in Devner Colordo</p>
                     </div>
                     <article>
-                    I'm an Industrial Designer turned Developer that's able to utilize my creativity to take simple ideas and turn them into modern designs. Leveraging a background in consumer-facing product design my goals are to create beauiful products to help enrich peoples interactions between passions and functional designs.
+                    I'm an Industrial Designer turned Developer that's able to utilize my creativity to take simple ideas and turn them into modern designs. Leveraging a background in consumer-facing product design my goals are to create beautiful products to help enrich people's interactions between passions and functional designs.
                     </article>
                 </div>
                 <div className='right'>
@@ -57,7 +57,7 @@ const About = () => {
                     <ul>
                         <li>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_coffeeLogo-39_fgpl6s.png'></img>
-                            <p>II havent taseted sweet caffeine for 5 yrs</p>
+                            <p>I havent taseted sweet caffeine for 5 yrs</p>
                         </li>
                         <li>
                             <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629761357/Portfolio%20Website%202/About%20Me%20Logos/About_sandalsLogo-40_q7xxr3.png'></img>
