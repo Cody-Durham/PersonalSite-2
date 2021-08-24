@@ -48,6 +48,11 @@
     // width: 100px;
     height: auto;
     overflow: hidden;
+    & img {
+        // border: 2px solid red;
+        height: 500px;
+        // object-fit: contain;
+    }
     
 }
 .middle {
@@ -98,7 +103,7 @@
             margin: 20px 0 20px 0; 
 
             & img {
-                margin-right: 10px; 
+                margin-right: 10px;
             }
         }
     }

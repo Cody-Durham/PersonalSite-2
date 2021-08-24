@@ -22,7 +22,7 @@ const About = () => {
                     </article>
                 </div>
                 <div className='right'>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629757997/Portfolio%20Website%202/Screen_Shot_2021-08-23_at_4.32.56_PM_sg6y7y.png'></img>
+                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629800721/Portfolio%20Website%202/AboutMeSketch-02-01_yk6ltw.png'></img>
                 </div>
             </div>
 
