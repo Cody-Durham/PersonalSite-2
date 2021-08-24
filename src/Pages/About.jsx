@@ -12,7 +12,8 @@ const About = () => {
             <div className='section1'>
                 <div className='left'>
                     <div>
-                        <h1>About</h1>
+                        {/* <h1>About</h1> */}
+                        <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629801794/Portfolio%20Website%202/Page%20Headers/About_Header-43_tjvany.png'></img>
                     </div>
                     <div>
                         <p>Im a creative software engineer located in Devner Colordo</p>
@@ -22,7 +23,7 @@ const About = () => {
                     </article>
                 </div>
                 <div className='right'>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629757997/Portfolio%20Website%202/Screen_Shot_2021-08-23_at_4.32.56_PM_sg6y7y.png'></img>
+                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629800721/Portfolio%20Website%202/AboutMeSketch-02-01_yk6ltw.png'></img>
                 </div>
             </div>
 
@@ -74,14 +75,22 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            
-
-
-
-
-
-            {/* <UnderConstruction />  */}
+           {/* <UnderConstruction />  */}
+           <div className='section3'>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629803830/Portfolio%20Website%202/Pics%20Of%20Me/CCC4_lldcmf.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629803889/Portfolio%20Website%202/Pics%20Of%20Me/IMG_2017_p3znas.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629803905/Portfolio%20Website%202/Pics%20Of%20Me/IMG_3437_sdywuv.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629803853/Portfolio%20Website%202/Pics%20Of%20Me/IMG_0658_jw5mvl.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629803838/Portfolio%20Website%202/Pics%20Of%20Me/FullSizeRender_p0tbxa.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629803813/Portfolio%20Website%202/Pics%20Of%20Me/10412020_870123923068197_6808264103215154568_n_nc0pcx.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629803868/Portfolio%20Website%202/Pics%20Of%20Me/IMG_0876_r1jubz.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629804278/Portfolio%20Website%202/Pics%20Of%20Me/IMG_4246_oewq0d.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629804420/Portfolio%20Website%202/Pics%20Of%20Me/20180806_121321_d22icj.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629804301/Portfolio%20Website%202/Pics%20Of%20Me/IMG_3893_lau803.jpg'></img>
+                <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629804334/Portfolio%20Website%202/Pics%20Of%20Me/IMG_2335_qyxbg1.jpg'></img>
+            </div>
         </div>
+        
         </>
         
     )

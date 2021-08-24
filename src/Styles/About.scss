@@ -48,6 +48,11 @@
     // width: 100px;
     height: auto;
     overflow: hidden;
+    & img {
+        // border: 2px solid red;
+        height: 500px;
+        // object-fit: contain;
+    }
     
 }
 .middle {
@@ -86,7 +91,7 @@
     &  .lower-container{
         // border: 2px solid red;
         width: 50%;
-        height: 500px;
+        height: 400px;
         display: flex;
         justify-content: center;
         
@@ -98,8 +103,24 @@
             margin: 20px 0 20px 0; 
 
             & img {
-                margin-right: 10px; 
+                margin-right: 10px;
             }
         }
+    }
+}
+
+.section3 {
+    // border: 2px solid aqua;
+    width: 120%;
+    position: relative;
+    left: -120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & img {
+        // border: 2px solid red;
+        height: 200px;
+        margin: 10px;
     }
 }
