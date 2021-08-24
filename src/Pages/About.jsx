@@ -5,7 +5,7 @@ import UnderConstruction from '../Components/UnderConstruction'
 import { useState, useEffect } from 'react'
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
+import HeadShake from 'react-reveal/HeadShake';
 
 
 const About = () => {
