@@ -56,9 +56,7 @@ const TestComponent = ( {url} ) => {
                         <p>{item.tech}</p>
                         <p>{item.styling}</p>
                     </div>
-                </div>
-            
-        
+                </div>       
         )
     })
 
