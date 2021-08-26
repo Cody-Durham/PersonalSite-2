@@ -22,7 +22,6 @@ const About = () => {
       </div>
         <div className='about-main-section'>
             <div className='section1'>
-{/* //////////////////////// */}
                 <Fade left>
                 <div className='left'>
                     <div>
@@ -37,7 +36,6 @@ const About = () => {
                     </article>
                 </div>
                 </Fade>
-{/* //////////////////////// */}
                 <Fade right>
                 <div className='right'>
                     <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629800721/Portfolio%20Website%202/AboutMeSketch-02-01_yk6ltw.png'></img>
