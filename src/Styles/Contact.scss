@@ -4,7 +4,7 @@
 
     // max-width: 1200px;
     // margin: 0 auto;
-    min-height: 83.2vh;
+    // min-height: 75vh;
     // margin-top: 100px;
     // display: flex;
     // flex-direction: column;
@@ -23,13 +23,15 @@
         
         #notepad {
             // border: 2px solid red;
-            margin-top: 75px;
+            margin-top: 230px;
+            position: relative;
+            top: -450px
         }
-        
+       
         .contact-form-container {
             // border: 3px solid hotpink;
             position: relative;
-            top: -900px;
+            top: -1350px;
             left: 100px;
             height: 750px;
             background-color: #91B0B8;
@@ -98,16 +100,22 @@
                     font-size: 1.4em;
                     font-weight: 600;  
                     transition: all 0.4s ease 0s;
+                    z-index: 1;
                 }
                 & input[type='submit']#contact-submit-button:hover {
                       cursor: pointer;
                       transform: scale(1.1);
-                  }
-                
+                  }               
             }
         }
-
-
+        
+        #arrow {
+            // border: 5px solid hotpink;
+            position: relative;
+            top: 600px;
+            left: 490px;
+            z-index: 1;
+        }
 
 
 

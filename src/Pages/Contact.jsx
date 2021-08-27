@@ -51,15 +51,17 @@ const Contact = () => {
  
                 </div>
                 <div>
+                    <img id='arrow' src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1630036245/Portfolio%20Website%202/Notepad_arrow-02_fggjwv.png'></img>
                     <img id='notepad'src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1630033366/Portfolio%20Website%202/Notepad-01_mw8vde.png'></img>
+                    
                     <form className='contact-form-container' onSubmit={sendEmail}>
-                        
                         <Fade left>
                             <div id='name-email-fields'>
                                 <input type="text" id='name' placeholder='Name'name='name'/>
-                                <input type="text" id='email' placeholder='Email' name='email'/>
+                                <input type="text" id='email' placeholder='Email' name='user_email'/>
                             </div>
-                    
+                        </Fade>
+                        <Fade up>
                             <div id='message-field'>
                                 <textarea type="text" id='message' placeholder='Message' name='message'/>  
                                 <input id='contact-submit-button' type='submit' value='Send It!' className='submit-button'></input>
