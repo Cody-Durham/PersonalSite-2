@@ -38,7 +38,8 @@ const About = () => {
                 </Fade>
                 <Fade right>
                 <div className='right'>
-                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629800721/Portfolio%20Website%202/AboutMeSketch-02-01_yk6ltw.png'></img>
+                    <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1630038990/Portfolio%20Website%202/About_Main_Image_angle-04_qlb2w6.png'></img>
+                    {/* <img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1629800721/Portfolio%20Website%202/AboutMeSketch-02-01_yk6ltw.png'></img> */}
                 </div>
                 </Fade>
             </div>
