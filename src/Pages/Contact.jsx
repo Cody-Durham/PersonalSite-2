@@ -22,9 +22,6 @@ const Contact = (event) => {
 
 
     return (
-        // <div className="contact-main-section">
-        //     <UnderConstruction />
-        // </div>
         <>
            <div className='contact-main-section'>
             <div className='contact-section1'>
@@ -62,12 +59,11 @@ const Contact = (event) => {
                     </div>
                     <div id='message-field'>
                         <textarea type="text" id='message' placeholder='Message' name='message'/>  
-                        <input className='contact-submit-button' type='submit' value='Send It!' className='submit-button'></input>
+                        <input id='contact-submit-button' type='submit' value='Send It!' className='submit-button'></input>
                     </div>
                 </form>
             </div>
             </div>
-
         </>
         
         
