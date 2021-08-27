@@ -3,8 +3,24 @@ import '../Styles/Contact.scss'
 import '../Components/UnderConstruction'
 import UnderConstruction from '../Components/UnderConstruction'
 import Fade from 'react-reveal/Fade';
+import emailjs from 'emailjs-com';
 
-const Contact = () => {
+const Contact = (event) => {
+
+    function sendEmail (event) {
+       event.preventDefault()
+       emailjs.sendForm('service_ngksy95', 'template_w0motin', event.target, 'user_yiq9D9eFTcNIhr45HYcax')
+       .then((response) => {
+           console.log(response);
+       })
+       .catch((error) => {
+           console.log(error);
+       })
+       event.target.reset()
+    }
+
+
+
     return (
         // <div className="contact-main-section">
         //     <UnderConstruction />
@@ -30,7 +46,7 @@ const Contact = () => {
                         </div>
                         <div id='github'>
                             <a href='https://github.com/cody-durham' target='blank'><img src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1627674443/Portfolio%20Website%202/GitHub_Icon-07_zjmbij.png'></img></a>
-                            {/* <article>Github</article> */}
+                            {/* <article>Github</article> */} 
                         </div>
                     </div>
                     {/* <article>
@@ -38,15 +54,16 @@ const Contact = () => {
                     </article> */}
                 </div>
                 </Fade>
-                <form className='contact-form-container'>
+
+                <form className='contact-form-container' onSubmit={sendEmail}>
                     <div id='name-email-fields'>
                         <input type="text" id='name' placeholder='Name'name='name'/>
                         <input type="text" id='email' placeholder='Email' name='email'/>
                     </div>
                     <div id='message-field'>
                         <textarea type="text" id='message' placeholder='Message' name='message'/>  
+                        <input className='contact-submit-button' type='submit' value='Send It!' className='submit-button'></input>
                     </div>
-                    <input type='button' value='Submit' className='submit-button'></input>
                 </form>
             </div>
             </div>
