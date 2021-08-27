@@ -21,13 +21,20 @@
     .contact-section1 {
         // border: 2px solid red;
         
+        #notepad {
+            // border: 2px solid red;
+            margin-top: 75px;
+        }
         
         .contact-form-container {
             // border: 3px solid hotpink;
             position: relative;
-            top: 150px;
+            top: -900px;
+            left: 100px;
             height: 750px;
             background-color: #91B0B8;
+            background-color: #eaf2f2;
+            border-radius: 4px;
             
             & #name-email-fields {
                 // border: 2px solid aqua;

@@ -1,13 +1,15 @@
 import React from 'react'
+import {useState} from 'react'
 import '../Styles/Contact.scss'
 import '../Components/UnderConstruction'
 import UnderConstruction from '../Components/UnderConstruction'
 import Fade from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse'
 import emailjs from 'emailjs-com';
 
-const Contact = (event) => {
+const Contact = () => {
 
-    function sendEmail (event) {
+        function sendEmail (event) {
        event.preventDefault()
        emailjs.sendForm('service_ngksy95', 'template_w0motin', event.target, 'user_yiq9D9eFTcNIhr45HYcax')
        .then((response) => {
@@ -46,22 +48,50 @@ const Contact = (event) => {
                             {/* <article>Github</article> */} 
                         </div>
                     </div>
-                    {/* <article>
-                    I'm an Industrial Designer turned Developer that's able to utilize my creativity to take simple ideas and turn them into modern designs. Leveraging a background in consumer-facing product design my goals are to create beautiful products to help enrich people's interactions between passions and functional designs.
-                    </article> */}
+ 
+                </div>
+                <div>
+                    <img id='notepad'src='https://res.cloudinary.com/dhad6e9gj/image/upload/v1630033366/Portfolio%20Website%202/Notepad-01_mw8vde.png'></img>
+                    <form className='contact-form-container' onSubmit={sendEmail}>
+                        
+                        <Fade left>
+                            <div id='name-email-fields'>
+                                <input type="text" id='name' placeholder='Name'name='name'/>
+                                <input type="text" id='email' placeholder='Email' name='email'/>
+                            </div>
+                    
+                            <div id='message-field'>
+                                <textarea type="text" id='message' placeholder='Message' name='message'/>  
+                                <input id='contact-submit-button' type='submit' value='Send It!' className='submit-button'></input>
+                            </div>
+                        </Fade>
+                    </form>
                 </div>
                 </Fade>
-
-                <form className='contact-form-container' onSubmit={sendEmail}>
-                    <div id='name-email-fields'>
-                        <input type="text" id='name' placeholder='Name'name='name'/>
-                        <input type="text" id='email' placeholder='Email' name='email'/>
-                    </div>
-                    <div id='message-field'>
-                        <textarea type="text" id='message' placeholder='Message' name='message'/>  
-                        <input id='contact-submit-button' type='submit' value='Send It!' className='submit-button'></input>
-                    </div>
-                </form>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    {/* <form className='contact-form-container' onSubmit={sendEmail}>
+                        <Fade bottom>
+                            <div id='name-email-fields'>
+                                <input type="text" id='name' placeholder='Name'name='name'/>
+                                <input type="text" id='email' placeholder='Email' name='email'/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div id='message-field'>
+                                <textarea type="text" id='message' placeholder='Message' name='message'/>  
+                                <input id='contact-submit-button' type='submit' value='Send It!' className='submit-button'></input>
+                            </div>
+                        </Fade>
+                    </form> */}
             </div>
             </div>
         </>
