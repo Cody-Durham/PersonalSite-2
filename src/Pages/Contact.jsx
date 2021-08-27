@@ -38,7 +38,17 @@ const Contact = () => {
                     </article> */}
                 </div>
                 </Fade>
-                
+                <form className='contact-form-container'>
+                    {/* <label for="">Name</label> */}
+                    <div id='name-email-fields'>
+                        <input type="text" id='name' placeholder='Name'/>
+                        <input type="text" id='email' placeholder='Email'/>
+                    </div>
+                    <div id='message-field'>
+                        <input type="text" id='message' placeholder='Message'/>     
+                    </div>
+                    <input type='button' value='Submit' className='submit-button'></input>
+                </form>
             </div>
             </div>
 
