@@ -39,13 +39,12 @@ const Contact = () => {
                 </div>
                 </Fade>
                 <form className='contact-form-container'>
-                    {/* <label for="">Name</label> */}
                     <div id='name-email-fields'>
-                        <input type="text" id='name' placeholder='Name'/>
-                        <input type="text" id='email' placeholder='Email'/>
+                        <input type="text" id='name' placeholder='Name'name='name'/>
+                        <input type="text" id='email' placeholder='Email' name='email'/>
                     </div>
                     <div id='message-field'>
-                        <input type="text" id='message' placeholder='Message'/>     
+                        <textarea type="text" id='message' placeholder='Message' name='message'/>  
                     </div>
                     <input type='button' value='Submit' className='submit-button'></input>
                 </form>
